@@ -1,0 +1,27 @@
+Prawa plików w postaci liczbowej
+Jêzyk programowania: Bash
+
+Wejœcie
+Na standardowe wejœcie w kolejnych liniach podawany jest wynik operacji ls -l w standardowym formatowaniu.
+
+Wyjœcie
+Na wyjœciu w kolejnych liniach nale¿y wypisaæ nazwê folderu lub pliku oraz prawa do niego w postaci liczbowej. Dodatkowo po nazwie folderu nale¿y dopisaæ ukoœnik, zaœ po nazwie pliku wykonywalnego -- gwiazdkê (za plik wykonywalny uznajemy plik zwyk³y, do którego w³aœciciel ma prawo x). Kolejnoœæ ma byæ taka sama jak na wejœciu.
+
+Uwaga:
+Nie nale¿y u¿ywaæ instrukcji seq.
+
+Przyk³ad
+Dla danych wejœciowych:
+total 4
+drwxr----- 2 user1 students 4096 Mar 22 16:37 folder1
+-rwxrwxrwx 1 user1 students    0 Mar 22 16:37 plik1.txt
+-rwxr---wx 1 user1 students    0 Mar 22 16:37 plik2.txt
+-r-xr----- 1 user1 students    0 Mar 22 16:37 plik3.txt
+-rw-r----- 1 user1 students    0 Mar 22 16:39 plik4.txt
+
+poprawn¹ odpowiedzi¹ jest:
+folder1/ 740
+plik1.txt* 777
+plik2.txt* 743
+plik3.txt* 540
+plik4.txt 640
