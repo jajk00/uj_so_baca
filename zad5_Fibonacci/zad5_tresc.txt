@@ -1,0 +1,18 @@
+Ci¹g Fibonacciego
+Jêzyk programowania: Bash
+
+Wejœcie
+Na standardowe wejœcie podawana jest liczba naturalna 1<=n<=50.
+
+Wyjœcie
+Na wyjœciu w kolejnych wierszach nale¿y wypisaæ kolejne wyrazy ci¹gu Fibonacciego od wyrazu pierwszego do wyrazu n-tego w³¹cznie. Przyjmujemy, ¿e pierwszy i drugi wyraz ci¹gu Fibonnaciego to 0 i 1.
+
+Przyk³ad
+Dla danych wejœciowych:
+5
+poprawn¹ odpowiedzi¹ jest:
+0
+1
+1
+2
+3
