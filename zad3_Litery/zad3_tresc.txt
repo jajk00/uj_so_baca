@@ -1,0 +1,30 @@
+Liczba wyst¹pieñ litery w kolejnych wierszach
+Jêzyk programowania: Bash
+
+Wejœcie
+Na standardowe wejœcie w pierwszym wierszu podawana jest litera [A-Za-z] (bez polskich znaków) oraz ewentualnie znak plus, w kolejnych wierszach -- s³owa lub zdania z³o¿one z du¿ych i ma³ych liter lub te¿ wiersze puste.
+
+Wyjœcie
+Dla ka¿dego wiersza wejœcia (z pominiêciem pierwszego, gdzie podana jest szukana litera), podaæ liczbê wyst¹pieñ szukanej litery. Jeœli w pierwszym wierszu by³ dodatkowo znak plus, to zliczamy wyst¹pienia litery bez rozró¿niania du¿ych i ma³ych. Jeœli znaku plus nie by³o, to zliczamy wyst¹pienia litery dok³adnie takiej, jak podano.
+
+Przyk³ad 1
+Dla danych wejœciowych:
+a+
+Ala ma kota
+Ala ma psa
+Ala ma kanarka
+poprawn¹ odpowiedzi¹ jest:
+4
+4
+6
+
+Przyk³ad 2
+Dla danych wejœciowych:
+a
+Ala ma kota
+Ala ma psa
+Ala ma kanarka
+poprawn¹ odpowiedzi¹ jest:
+3
+3
+5
