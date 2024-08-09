@@ -1,0 +1,23 @@
+Liczy siê rzadkoœæ
+Jêzyk programowania: Bash
+
+Treœæ
+Na standardowe wejœcie podawane s¹ identyfikatory, ka¿dy w oddzielnym wierszu, przy czym identyfikatory mog¹ siê powtarzaæ. Napisaæ skrypt, który znajdzie identyfikator powtarzaj¹cy siê najrzadziej i wypisze ów identyfikator oraz liczbê powtórzeñ (w jednym wierszu). Jeœli wiêcej ni¿ jeden identyfikator ma minimaln¹ liczbê powtórzeñ, to nale¿y wypisaæ ten, który pojawi³ siê najwczeœniej.
+
+Przyk³ad
+Dla danych wejœciowych:
+id1
+id2
+id3
+id1
+kwadrat
+id1
+id2
+id3
+id1
+stonoga
+id2
+id2
+
+poprawn¹ odpowiedzi¹ jest:
+kwadrat 1
