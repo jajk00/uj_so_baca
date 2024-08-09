@@ -1,0 +1,25 @@
+Ca³kowita statystyka
+Jêzyk programowania: Bash
+
+Wejœcie
+Na standardowe wejœcie podawane s¹ liczby naturalne z zakresu od 1 do 100, ka¿da w oddzielnej linii. Mog¹ wystêpowaæ równie¿ linie puste. Liczb jest nie wiêcej ni¿ 50.
+
+Wyjœcie
+Na wyjœciu w pierwszej linii nale¿y wypisaæ œredni¹ arytmetyczn¹ wyliczon¹ z podanych liczb, w drugiej linii wariancjê.
+Uwagi pomocnicze
+Testy uwzglêdniaj¹ to, ¿e Bash wykonuje dzielenie ca³kowite.
+
+Przyk³ad
+Dla danych wejœciowych:
+1 
+
+4
+5
+2
+
+6
+
+6
+poprawn¹ odpowiedzi¹ jest:
+4
+3
